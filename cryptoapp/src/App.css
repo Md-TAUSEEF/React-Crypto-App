@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+input[type="text"] {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+
+@media only screen and (min-width: 768px) {
+  input[type="text"] {
+    width: auto;
+    max-width: 400px;
+  }
+}
+
+
+@media only screen and (min-width: 1200px) {
+  .App {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
